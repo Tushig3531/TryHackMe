@@ -1,4 +1,4 @@
-# TryHackMe — EvilGPT v2 Walkthrough
+# TryHackMe — EvilGPT v2
 
 This repository documents my completion of the [EvilGPT v2 room](https://tryhackme.com/room/hfb1evilgptv2) on TryHackMe.  
 ---
