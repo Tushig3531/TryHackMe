@@ -1,6 +1,3 @@
-# TryHackMe CTF – Lookup
-
-**Room:**[Lookup](https://tryhackme.com/room/lookup)
 ## Day 2:
 
 Today's room was the hardest CTF flag capture I have attempted so far.  

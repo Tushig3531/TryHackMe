@@ -1,4 +1,4 @@
-# TryHackMe CTF – Cryptosystem
+## Day 3
 
 **Room:** [Cryptosystem](https://tryhackme.com/room/hfb1cryptosystem)  
 
