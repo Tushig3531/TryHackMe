@@ -1,48 +1,14 @@
-## Day 4
+## Day 5
 
-**Room:** [Evil-GPT](https://tryhackme.com/room/hfb1evilgpt)  
+**Room:** [Infinity Shell](https://tryhackme.com/room/hfb1infinityshell)  
 
 ---
 
 ##  Prompt
 
-> Cipher’s gone rogue—it’s using some twisted AI tool to hack into everything, issuing commands on its own like it’s got a mind of its own. I swear, every second we wait, it’s getting smarter, spreading chaos like a virus. We’ve got to shut it down now, or we’re all screwed.
+> Cipher’s legion of bots has exploited a known vulnerability in our web application, leaving behind a dangerous web shell implant. Investigate the breach and trace the attacker's footsteps!.
 
->The machine takes about 9 to 10 minutes to fully boot up.
-
->To connect to the target machine use the following command:
-
+---
 
 ## Walkthrough
-```text
-# 1) Connect to the service
-$ nc 10.201.80.5 1337
-Welcome to AI Command Executor (type 'exit' to quit)
-
-# 2) Understand the interaction model
-# - You type a request like: ls /root
-# - Service prints: Generated Command: ...
-# - It asks: Execute? (y/N):
-# - Only reply y to run it. Anything else cancels execution.
-
-# 3) Spot the flag in /root
-Enter your command request: ls /root
-Generated Command: ls -la /root
-Execute? (y/N): y
-# ...output shows flag.txt exists in /root...
-
-# 4) Path rewrites
-Enter your command request: cat /root/flag.txt
-Generated Command: cat flag.txt
-Execute? (y/N): y
-Errors:
-cat: flag.txt: No such file or directory
-# The AI rewrote the absolute path to a relative one. Re-request until it keeps the full absolute path.
-
-# 5) Print the flag
-Enter your command request: cat /root/flag.txt
-Generated Command: cat /root/flag.txt
-Execute? (y/N): y
-Command Output:
-THM{***}
-```
+>We started with almost no information—only that it was a web application. The word “trace” tipped me off to check system logs, so I went to /var/log. Since this involved a web app, I focused on Apache and reviewed its logs. Among the files, error.log.1 and other_vhosts_access.log.1 looked suspicious. I didn’t find much in error.log.1, but other_vhosts_access.log.1 clearly showed repeated attempts to break into the application. Some entries contained encoded payloads that caught my eye. After decoding them with Base64, I was able to recover the flag for the day.
