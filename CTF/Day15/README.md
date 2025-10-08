@@ -8,8 +8,6 @@ For today's room I decided to do a simple 5-minute room and focus more on learni
 > > This easy-to-use utility converts markdown files to PDF and is totally secure! Right...?
 
 Host: 10.201.79.96
-
-## Walkthrough
 First, I checked the open ports:
 ```bash
 nmap -sS -sV 10.201.79.96
