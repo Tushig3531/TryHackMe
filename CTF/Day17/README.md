@@ -11,7 +11,8 @@
 
 Host: 10.201.85.126
 ---
-Message: Today, I was personally so tired while having a lot of school work. I completed 5-min room to remain my consistancy into the challenge. I hope tomorrow will be better and show more progress. Therefore, today I reached level 5, aka VISIONARY and so far, I have completed 27 rooms including information rooms. So far I am happy for my progress. "Trying to be 1 cm better than yesterday me"
+## Message
+Today, I was personally so tired while having a lot of school work. I completed 5-min room to remain my consistancy into the challenge. I hope tomorrow will be better and show more progress. Therefore, today I reached level 5, aka VISIONARY and so far, I have completed 27 rooms including information rooms. So far I am happy for my progress. "Trying to be 1 cm better than yesterday me"
 ---
 ## Walkthrough
 So, I started simply going into the website: http://10.201.85.126, and it told me to Ctrl+U to see login. So I followed the insturction, there it said:
