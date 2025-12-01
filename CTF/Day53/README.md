@@ -25,7 +25,8 @@ The Antivirus (AV) may detect some basic threats, but to detect advanced threats
 Agents : Sometimes referred to as sensors.
 Telemetry : Is the black box of an endpoint with everything necessary for detection and investigation
 
-Detailed telemetry not only helps the EDR detect advanced threats and make better judgments on the legitimacy of the activities, but it is also very helpful for the analysts during the investigations
+Detailed telemetry not only helps the EDR detect advanced threats and make better judgments on the legitimacy of the activities, but it is also very helpful for the analysts during the investigations.
+
 .
 ---
 ### Advanced Techniques
