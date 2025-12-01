@@ -18,6 +18,7 @@ There are three main features of an EDR:
 - Response 
 
 The Antivirus (AV) may detect some basic threats, but to detect advanced threats that evade normal detections, we need an EDR. Unlike antivirus software's basic signature-based detection, it monitors and records the behaviors of the endpoint.
+
 ![alt text](image-2.png)
 .
 ---

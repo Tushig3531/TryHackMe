@@ -22,21 +22,12 @@ The unified kill chain can encourage threat modelling as the unified framework h
 The UKS states that there are 18 phases to an attack. 
 ![alt text](image.png)
 
-# +---------------------------------------------------------------+--------------------------------------------------------------------------+
-# | Benefits of the Unified Kill Chain (UKC) Framework            | How do Other Frameworks Compare?                                         |
-# +---------------------------------------------------------------+--------------------------------------------------------------------------+
-# | Modern (released in 2017, updated in 2022).                   | Some frameworks, such as MITRE’s, were released in 2013, when the       |
-# |                                                               | cybersecurity landscape was very different.                              |
-# +---------------------------------------------------------------+--------------------------------------------------------------------------+
-# | Extremely detailed (18 phases).                               | Other frameworks often have only a small handful of phases.             |
-# +---------------------------------------------------------------+--------------------------------------------------------------------------+
-# | Covers an entire attack: reconnaissance, exploitation,        | Other frameworks cover only a limited number of phases in the           |
-# | post-exploitation, and even the attacker’s motivation.        | attack lifecycle.                                                        |
-# +---------------------------------------------------------------+--------------------------------------------------------------------------+
-# | Highlights realistic attack behavior where stages often       | Other frameworks generally do not account for attackers moving back     |
-# | re-occur (e.g., after exploiting a machine, an attacker       | and forth between different phases during an attack.                    |
-# | performs new reconnaissance to pivot to another system).      |                                                                          |
-# +---------------------------------------------------------------+--------------------------------------------------------------------------+
+| Benefits of the Unified Kill Chain (UKC) Framework | How do Other Frameworks Compare? |
+|:--|:--|
+| Modern (released in 2017, updated in 2022). | Some frameworks, such as MITRE’s, were released in 2013, when the cybersecurity landscape was very different. |
+| Extremely detailed (18 phases). | Other frameworks often have only a small handful of phases. |
+| Covers an entire attack: reconnaissance, exploitation, post-exploitation, and even the attacker’s motivation. | Other frameworks cover only a limited number of phases in the attack lifecycle. |
+| Highlights realistic attack behavior where stages often re-occur (e.g., after exploiting a machine, an attacker performs new reconnaissance to pivot to another system). | Other frameworks generally do not account for attackers moving back and forth between different phases during an attack. |
 
 .
 ---
