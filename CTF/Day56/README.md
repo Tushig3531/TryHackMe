@@ -35,6 +35,7 @@ For example:
 **Response**
 
 The Orchestration, Automation and Response, SOAR solves the challanges: There is no more alert fatique, most of the processes are automated, and all the different tools are connected for coordination.
+.
 ---
 
 Phishing Playbook :  SOAR solutions can execute these tasks in the background via a playbook. And, remediation can be performed when a positive phishing email is identified.

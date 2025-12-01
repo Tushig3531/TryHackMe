@@ -11,9 +11,11 @@ Enrichment : Use Threat Intelligence and identity inventory to get information a
 Investigation : Using the gathered data and SIEM logs, make your verdict if the login is expected
 Escalation : Escalate the alert to L2 or communicate the login with user if necessary
 ---
+.
 Mean Time to Detect (MTTD) : 5 minutes : Average time between the attack and its detection by SOC tools
 Mean Time to Acknowledge (MTTA) : 10 minutes : Average time for L1 analysts to start triage of the new alert
 Mean Time to Respond (MTTR) : 60 minutes : Average time taken by SOC to actually stop the breach from spreading
+.
 ---
 False Positive Rate over 80% : receives too much noise
 - Make sure our EDR/SIEM ignores safe system updates

@@ -17,6 +17,7 @@ Fast Flux is a trick used by botnets and malware to evade detection. It works by
 - Make law-enforcement takedowns harder.
 
 Basically, IP addresses are easy to block but also easy for attackers to change. But attackers use techniques like Fast Flux to make blocking IPs ineffective.
+.
 ---
 ### Domain Name (Simple)
 Domain names are slightly harder for attackers to change than IP addresses, but still relatively easy compared to the items higher on the pyramid
@@ -26,9 +27,11 @@ Domain names are slightly harder for attackers to change than IP addresses, but 
 - Browsers sometimes hide the punycode version and show the fake one, tricking users.
 
 Attackers Hide Malicious Domains Behind URL Shorteners
+.
 ---
 ### Host Artifacts (Annoying)
 Host artifacts are the traces or observables that attackers leave on the system, such as registry values, suspicious process execution, attack patterns or IOCs (Indicators of Compromise), files dropped by malicious applications, or anything exclusive to the current threat.
+.
 ---
 ### Network Artifacts (Annoying)
 A network artifact is any unusual pattern or piece of information found in network traffic that can help identify malicious activity.
@@ -98,6 +101,7 @@ Fuzzy hashing defeats that:
 Basically, by detecting fuzzing hash, attackers no longer can use similar or related malware, they need to find whole different strategy
 
 ssdeep is a program for computing context triggered piecewise hashes (CTPH). Also called fuzzy hashes, CTPH can match inputs that have homologies.
+.
 ---
 ### TTPs (Tough)
 TTPs stands for Tactics, Techniques & Procedures. This includes the whole MITRE ATT&CK Matrix, which means all the steps taken by an adversary to achieve his goal, **starting from phishing attempts to persistence and data exfiltration.** 

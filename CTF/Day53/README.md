@@ -16,14 +16,17 @@ There are three main features of an EDR:
 ![alt text](image-1.png)
 
 - Response 
+.
 ---
 The Antivirus (AV) may detect some basic threats, but to detect advanced threats that evade normal detections, we need an EDR. Unlike antivirus software's basic signature-based detection, it monitors and records the behaviors of the endpoint.
 ![alt text](image-2.png)
+.
 ---
 Agents : Sometimes referred to as sensors.
 Telemetry : Is the black box of an endpoint with everything necessary for detection and investigation
 
 Detailed telemetry not only helps the EDR detect advanced threats and make better judgments on the legitimacy of the activities, but it is also very helpful for the analysts during the investigations
+.
 ---
 ### Advanced Techniques
 **Detection**

@@ -28,9 +28,11 @@ So we will be able to recognize the intrusion attempts and understand the intrud
 - Active Recon : This involves direct contact with the taget with activities such as social engineerin, port scanning, banner grabbing, or probing for open services
 
 **Email harvesting** is the process of obtaining email addresses from public, paid, or free services. An attacker can use email-address harvesting for a phishing attack.
+.
 ---
 ### Weaponization
 Attackers usually use automated tools to generate the malware or refer to the DarkWeb to purchase the malware. More sophisticated actors or nation-sponsored APT (Advanced Persistent Threat Groups) would write their custom malware to make the malware sample unique and evade detection on the target.
+.
 ---
 ### Delivery
 - Phishing email
