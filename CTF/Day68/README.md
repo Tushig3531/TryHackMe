@@ -370,3 +370,5 @@ Now FILESERVER knows: “This user is authenticated and trusted by the domain.�
 - - NTFS permissions
 - If allowed → access granted
 ![alt text](image-3.png)
+
+Logs provide event records, packet captures provide full traffic details, and flow data provides metadata for analyzing network behavior and detecting anomalies.
