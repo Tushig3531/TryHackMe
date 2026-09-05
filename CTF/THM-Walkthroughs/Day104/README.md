@@ -3,7 +3,6 @@
 ---
 **Room Completed**
 [**Report Writing for SOC L2**](https://tryhackme.com/room/reportwritingsocl2)
-[**Defensive Security Trends**](https://tryhackme.com/room/defensivesecuritytrends)
 
 ---
 
